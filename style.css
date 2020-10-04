@@ -1,0 +1,170 @@
+/* Style de mon site */
+body {
+	background-image: url("images/bk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+h1 {
+	font-family: Impact;
+	color: #ffb3ff;
+}
+
+h2 {
+	position: left;
+}
+
+ul {
+	font-family: Arial;
+    list-style-type: none;
+	width: 510px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E2E2E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffb3ff;
+	color: black;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+}
+
+#container {
+	display: grid;
+	opacity: 0.9;
+	justify-content: center;
+	background-color: #2E2E2E;
+	height: 600px;
+	color: white;
+}
+
+#text-container {
+	text-align: center;
+	border-radius: 10px;
+	font-family: calibri;
+	font-size: 25px;
+	background-color: #000;
+	justify-content: left;
+	height: 450px;
+	width: 900px;
+	color: white;
+}
+
+#audio {
+	border-radius: 10px;
+	height: 65px;
+	width: 307px;
+	position: relative;
+	left: 1095px;
+}
+
+#mailDiv {
+	text-align: center;
+	border-radius: 10px;
+	font-family: calibri;
+	font-size: 25px;
+	background-color: #000;
+	justify-content: left;
+	height: 450px;
+	width: 900px;
+	color: white;
+}
+
+#mailForm {
+	margin-top: 50px;
+}
+
+#mailName {
+	background-color: #111;
+	color: #ffb3ff;
+}
+
+#mailText {
+	height: 185px;
+	width: 500px;
+	background-color: #111;
+	color: #ffb3ff;
+}
+
+.mailBottom {
+	margin-top: 20px;
+	box-shadow:inset 0px 1px 0px 0px #d69cc7;
+	background:linear-gradient(to bottom, #d69cc7 5%, #d69cc7 100%);
+	background-color:#d69cc7;
+	border:1px solid #d69cc7;
+	display:inline-block;
+	cursor:pointer;
+	color:#111;
+	font-family:Verdana;
+	font-size:13px;
+	padding:9px 16px;
+	text-decoration:none;
+}
+.mailBottom:hover {
+	background:linear-gradient(to bottom, #d69cc7 5%, #d69cc7 100%);
+	background-color:#d69cc7;
+}
+.mailBottom:active {
+	position:relative;
+	top:1px;
+}
+
+
+audio {
+	background-color: white;	
+}
+
+.bg-img {
+  /* l'image*/
+  background-image: url("images/rebk.png");
+
+  min-height: 150px;
+
+  /* centre et met en forme l'image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* nécessaire pour positionner la barre de navigation */
+  position: relative;
+}
+
+/* Place le conteneur navbar à l’intérieur de l’image */
+.nav-container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
